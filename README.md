@@ -4,6 +4,14 @@ A simple rendition of the classic Breakout game.
 ## What does this project do?
 This project uses an Object-Oriented Approach to recreate this popular arcade game in PyGame.
 
+Overview of each file:
+- 'main.py':
+- 'game.py':
+- 'paddle.py':
+- 'ball.py':
+- 'tile.py':
+- 'settings.py':
+
 ---
 
 ## System requirements
@@ -18,17 +26,17 @@ This project uses an Object-Oriented Approach to recreate this popular arcade ga
 
 ## How to get started
 1. Check if you have all of the system requirements.
-2. Open 'constants.py' and adjust if necessary.
+2. Open 'settings.py' and adjust if necessary.
 3. Open 'main.py' and run the code.
 
 ---
 
 ## How to play
-Use the arrow keys to move the paddle left and right, so you can redirect the ball to hit the tiles and break them.
-The aim of the game is to break all of the tiles and get a maximum of 80 points.
-However, you will lose a life if you let the ball fall past the bottom of the screen! 
-You only have 5 lives before you lose the game.
-After the game ends, press space to play again.
+- Use the arrow keys to move the paddle left and right, so you can redirect the ball to break the tiles.
+- The aim of the game is to break all of the tiles and get a maximum of 80 points.
+- You will lose a life if the ball falls past the bottom of the screen.
+- You only have 5 lives before you lose the game.
+- After the game ends, press space to play again.
 
 ---
 
@@ -37,14 +45,15 @@ Bugs:
 - Making the ball move at any angle: since the ball can only move at 45 degree angles, it sometimes becomes stuck in a loop and the player cannot finish the game.
 
 Potential improvements and additions:
-- Main menu: this makes the application more user-friendly, as it will not start immediately.
-- Nickname and leaderboard features: could be stored temporarily, or permanently in a database.
-- Settings screen: allows players to adjust sound and colour scheme settings, so the application is more user-friendly.
-- Difficulty levels to select from at the beginning: so the game is easier for beginners and less boring for expert players.
+- Main menu: this will make the application more user-friendly, as it will not start immediately.
+- Pause option: this can improve usability of the application.
+- Sound effects: sounds could play whenever the ball bounces off a surface, so the game is more complete.
+- Settings screen: will allow players to adjust sound and colour scheme settings, so the application is more user-friendly.
+- Selection of difficulty levels at the beginning: will make the game easier for beginners and less boring for expert players.
 - Multiplayer support: players can compete against each other, to make it more similar to the original version.
-- Pause screen: to improve usability of the application.
 - Increase ball speed as the game progresses: increases difficulty.
 - Playing with multiple balls at once: increases difficulty.
-- Allowing the paddle to be controlled with mouse position.
+- Allowing the paddle to be controlled with the mouse position: alternative controls will improve ease of use.
+- Nickname and leaderboard features: this will make it more similar to an arcade game. Scores could be stored temporarily, or permanently in a database.
 
 ---
