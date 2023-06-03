@@ -1,7 +1,7 @@
 #Imports:
 import pygame
 import time
-from constants import *
+from settings import *
 from paddle import Paddle
 from ball import Ball
 from tile import Tile
