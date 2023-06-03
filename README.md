@@ -5,12 +5,12 @@ A simple rendition of the classic Breakout game.
 This project uses an Object-Oriented Approach to recreate this popular arcade game in PyGame.
 
 Overview of each file:
-- 'main.py':
-- 'game.py':
-- 'paddle.py':
-- 'ball.py':
-- 'tile.py':
-- 'settings.py':
+- 'main.py': contains the PyGame event loop.
+- 'game.py': contains the Game class, which handles game logic, sprites, collisions, and user inputs.
+- 'paddle.py': contains the Paddle class, which creates a paddle rect and handles user inputs.
+- 'ball.py': contains the Ball class, which creates a ball rect.
+- 'tile.py': contains the Tile class, which creates a tile rect.
+- 'settings.py': contains a list of constants used throughout the program.
 
 ---
 
