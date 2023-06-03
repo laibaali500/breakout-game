@@ -14,7 +14,7 @@ clock=pygame.time.Clock()
 
 
 class Game():
-    """Handles sprites, collisions, and user inputs."""
+    """Handles game logic, sprites, collisions, and user inputs."""
 
     def __init__(self, window):
         """Allows a Game to be instantiated."""
