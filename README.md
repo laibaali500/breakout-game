@@ -1,10 +1,10 @@
 # breakout-game
-A simple rendition of the classic Breakout game.
+*A simple rendition of the classic Breakout game.*
 
 ## What does this project do?
 This project uses an Object-Oriented Approach to recreate this popular arcade game in PyGame.
 
-Overview of each file:
+Overview of each code file:
 - 'main.py': contains the PyGame event loop.
 - 'game.py': contains the Game class, which handles game logic, sprites, collisions, and user inputs.
 - 'paddle.py': contains the Paddle class, which creates a paddle rect and handles user inputs.
@@ -24,10 +24,10 @@ Overview of each file:
 
 ---
 
-## How to get started
-1. Check if you have all of the system requirements.
-2. Open 'settings.py' and adjust if necessary.
-3. Open 'main.py' and run the code.
+## Using the application
+1. Open 'settings.py' and adjust constants if necessary.
+2. Download PyGame: `$ pip install pygame`
+3. `$ python main.py`
 
 ---
 
