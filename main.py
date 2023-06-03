@@ -1,6 +1,6 @@
 #Imports:
 import pygame
-from constants import *
+from settings import *
 from game import Game
 
 #Initialising Pygame:
