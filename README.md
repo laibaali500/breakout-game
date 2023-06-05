@@ -26,7 +26,7 @@ Overview of each code file:
 
 ## Using the application
 1. Open 'settings.py' and adjust constants if necessary.
-2. Download PyGame: `$ pip install pygame`
+2. Install PyGame: `$ pip install pygame`
 3. `$ python main.py`
 
 ---
