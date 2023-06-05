@@ -59,6 +59,7 @@ Potential improvements and additions:
 ---
 
 ## Code Source
-I have a little prior experience with PyGame, having made a 2D platformer and a drawing pad in the past. My understanding of the basic concepts meant that I was able to write all of the code for this Breakout game from scratch.
+I have a little prior experience with PyGame, having made a 2D platformer and a drawing pad in the past. 
+My understanding of the basic concepts of sprites, event handling and event loops meant that I was able to write all of the code for this Breakout game from scratch.
 
 ---
