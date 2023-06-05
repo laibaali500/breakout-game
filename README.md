@@ -2,7 +2,7 @@
 *A simple rendition of the classic Breakout game.*
 
 ## What does this project do?
-This project uses an Object-Oriented Approach to recreate this popular arcade game in PyGame.
+This project uses an Object-Oriented Approach to recreate this popular arcade game in PyGame. OOP is especially useful as different sprites such as the tiles, the ball, and the paddle can be represented with objects. It also allowed me to inherit from PyGame’s base ‘Sprite’ class to utilise its methods and be able to add objects to sprite groups later on. This approach also facilitated development and testing as each class is mostly self-contained. Finally, it makes the code more maintainable because each sprite can be adapted simply by adjusting the attributes and methods in its class.
 
 Overview of each code file:
 - 'main.py': contains the PyGame event loop.
@@ -55,5 +55,10 @@ Potential improvements and additions:
 - Playing with multiple balls at once: increases difficulty.
 - Allowing the paddle to be controlled with the mouse position: alternative controls will improve ease of use.
 - Nickname and leaderboard features: this will make it more similar to an arcade game. Scores could be stored temporarily, or permanently in a database.
+
+---
+
+## Code Source
+I have a little prior experience with PyGame, having made a 2D platformer and a drawing pad in the past. My understanding of the basic concepts meant that I was able to write all of the code for this Breakout game from scratch.
 
 ---
